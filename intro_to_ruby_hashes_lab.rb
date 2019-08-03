@@ -29,8 +29,8 @@ end
 
 def read_from_hash(hash, key)
   hash = new_hash
-  if hash[value] 
-    hash[value] += 1
+  if hash[key]
+    
   else
     nil 
   end
