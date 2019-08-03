@@ -30,12 +30,11 @@ end
 def read_from_hash(hash, key)
   hash = new_hash
   if hash[key] 
-    hash[key] += 1 
+    hash[key] = value
     hash[key]
   else
     nil 
   end
-  hash[key]
 end
 
 def update_counting_hash(hash, key)
