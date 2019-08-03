@@ -34,7 +34,7 @@ def read_from_hash(hash, key)
   else
     nil 
   end
-  hash
+  hash[:name]
 end
 
 def update_counting_hash(hash, key)
