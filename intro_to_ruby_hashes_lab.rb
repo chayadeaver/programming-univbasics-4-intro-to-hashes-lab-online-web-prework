@@ -29,7 +29,7 @@ end
 
 def read_from_hash(hash, key)
   hash = new_hash
-  if hash[key] = value
+  if hash[value] = key
     value
   else
     nil 
