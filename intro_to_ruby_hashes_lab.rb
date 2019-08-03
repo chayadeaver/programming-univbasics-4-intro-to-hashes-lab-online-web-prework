@@ -33,7 +33,6 @@ def read_from_hash(hash, key)
     hash[key] = value
     nil 
   end
-  hash
 end
 
 def update_counting_hash(hash, key)
