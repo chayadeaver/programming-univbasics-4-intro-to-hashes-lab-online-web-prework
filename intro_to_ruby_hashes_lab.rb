@@ -31,10 +31,11 @@ def read_from_hash(hash, key)
   hash = new_hash
   if hash[:name]
     hash[:name] = 'Steve'
+    hash[:name]
   else
     nil 
   end
-  hash[:name]
+  
 end
 
 def update_counting_hash(hash, key)
