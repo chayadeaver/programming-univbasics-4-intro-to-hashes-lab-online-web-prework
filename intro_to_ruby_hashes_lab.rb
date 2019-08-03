@@ -31,7 +31,7 @@ def read_from_hash(hash, key)
   hash = new_hash
   if hash[key] 
     hash[key] += 1 
-    hash
+    hash[key]
   else
     nil 
   end
